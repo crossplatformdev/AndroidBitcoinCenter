@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/Margin"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/Padding" >
+
+    <TextView
+        android:id="@+id/about_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_text" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/by_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/about_text"
+        android:gravity="right"
+        android:text="@string/by_text" />
+
+    <Button
+        android:id="@+id/donate_paypal"
+        style="@style/Button.Vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/donate_btc"
+        android:text="@string/donation_paypal" />
+
+    <Button
+        android:id="@+id/send_email"
+        style="@style/Button.Vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/donate_paypal"
+        android:text="@string/send_email" />
+
+    <Button
+        android:id="@+id/donate_btc"
+        style="@style/Button.Vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/purchase_premium"
+        android:text="@string/donation_bitcoin" />
+
+    <Button
+        android:id="@+id/purchase_premium"
+        style="@style/Button.Vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/by_text"
+        android:text="@string/purchase_premium" />
+
+</RelativeLayout>

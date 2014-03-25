@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="BackButton" severity="warning" />
+    <issue id="EasterEgg" severity="warning" />
+    <issue id="FieldGetter" severity="warning" />
+    <issue id="IconExpectedSize" severity="warning" />
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/list_element.xml" />
+    </issue>
+    <issue id="RtlCompat" severity="error" />
+    <issue id="RtlEnabled" severity="warning" />
+    <issue id="RtlHardcoded" severity="warning" />
+    <issue id="SelectableText" severity="warning" />
+    <issue id="StopShip" severity="warning" />
+    <issue id="TypographyQuotes" severity="warning" />
+    <issue id="UnusedIds" severity="warning">
+        <ignore path="res/layout/about.xml" />
+        <ignore path="res/layout/activity_android_bitcoin_center.xml" />
+        <ignore path="res/layout/list_element.xml" />
+        <ignore path="res/layout/markets.xml" />
+    </issue>
+</lint>

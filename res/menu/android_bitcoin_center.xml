@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings">
+    </item>
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/about">
+    </item>
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/exit">
+    </item>
+    <item android:id="@+id/menu_donate" android:title="@string/donation_bitcoin"></item>
+    <item android:id="@+id/menu_update_markets" android:title="@string/update_markets"></item>
+    <item android:id="@+id/buy_and_sell_bitcoins" android:title="@string/buy_n_sell"></item>
+    
+</menu>
